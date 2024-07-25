@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .onepiece-button {
+        @apply bg-alura-100 dark:bg-dark-200 rounded-full text-zinc-100 dark:text-zinc-200 py-1 px-5 w-full max-w-sm hover:animate-pulse hover:shadow-md hover:shadow-alura-200 hover:dark:shadow-zinc-500 hover:-translate-y-1 hover:delay-200
+    }
+
+    .onepiece-card {
+        @apply p-5 bg-gray-200 dark:bg-dark-200 sm:rounded-xl sm:shadow-lg flex flex-col items-center gap-2 sm:hover:shadow-gray-500 sm:hover:shadow-lg
+    }
+
+    .onepiece-tag {
+        @apply text-gray-200 dark:text-gray-100 px-4 py-1 rounded-full bg-alura-100 dark:bg-dark-100 text-xs font-bold uppercase hover:bg-alura-200 hover:scale-110 hover:bg-gradient-to-r hover:from-alura-200 hover:to-pink-400;
+    }
+}
