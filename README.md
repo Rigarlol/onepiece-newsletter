@@ -19,7 +19,7 @@ Este é um projeto de NewsLetter dedicado ao universo de One Piece, desenvolvido
 1. **Clone o Repositório:**
 
    ```bash
-   git clone https://github.com/seu-usuario/Onepiece-NewsLetter.git
+   git clone https://github.com/Rigarlol/Onepiece-NewsLetter.git
    cd Onepiece-NewsLetter
 
 2. **Instale as dependências**
